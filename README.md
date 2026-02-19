@@ -60,7 +60,7 @@ Before running scripts, open the **Configuration** command from the ribbon:
 
 This step is required to ensure scripts execute correctly.
 
-[▶️⚙️Configuration Video ](https://www.youtube.com/watch?v=Fhd9VoSzTg8)
+[▶️⚙️Configuration Video ](https://www.youtube.com/watch?v=4FLbLDF3MKQ)
 
 ---
 
