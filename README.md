@@ -58,7 +58,9 @@ Before running scripts, open the **Configuration** command from the ribbon:
 * Define the path to the user’s Python installation  
 * Manage existing custom script buttons  
 
-This step is required to ensure scripts execute correctly.  
+This step is required to ensure scripts execute correctly.
+
+[▶️⚙️Configuration Video ](https://www.youtube.com/watch?v=Fhd9VoSzTg8)
 
 ---
 
