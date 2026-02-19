@@ -86,6 +86,8 @@ Use **Show Buttons** to display a dockable panel containing all custom script bu
 * 🗂️ Buttons can be organized and managed through the configuration dialog  
 * 📌 The panel can be docked or hidden to fit different workflows  
 
+[▶️📝Management Video ](https://www.youtube.com/watch?v=pHNa_wb3GwI)
+
 ---
 
 ## 💡 Why PyNet
