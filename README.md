@@ -74,6 +74,8 @@ Use **Browse Scripts** to:
 
 Scripts are executed locally and can interact with the Navisworks API through Python.  
 
+[▶️🐍Running scripts Video ](https://www.youtube.com/watch?v=IG0KOaFVKPk)
+
 ---
 
 ### 3️⃣ Custom Buttons Panel
