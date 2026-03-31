@@ -2,163 +2,95 @@
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNetLogo.png" width="150"/>
 </p>
 
-# PyNet 🐍🖥️
+# PyNet Platform 🧠🐍🏗️
 
-**PyNet** is a Python .NET integration framework designed to embed Python scripting capabilities directly into Autodesk products.  
+**PyNet Platform** is an AI-powered BIM automation ecosystem designed to bridge the gap between Natural Language, Python flexibility, and Autodesk's deterministic environment.
 
-The goal of PyNet is to provide a unified, extensible foundation for Python-based automation across multiple Autodesk platforms, including **Navisworks**, **Revit**, and **Civil 3D**. Each implementation adapts PyNet to the specific API and workflows of the host application while sharing the same core principles and architecture.  
-
-This repository currently focuses on the **Navisworks** implementation of PyNet.  
-
-PyNet is intended for advanced users, BIM coordinators, computational designers, and technical professionals who want to extend Autodesk functionality using Python.
+It operates as a dual-layer system:
+1.  **The Brain (AI Layer):** An intelligent agent that translates user intent into code, executes it, and self-corrects through automated feedback loops.
+2.  **The Muscle (Integration Layer):** A high-performance Python .NET framework embedded directly into Autodesk products, starting with **Navisworks** (with upcoming support for Revit and Civil 3D).
 
 ---
 
-## ✨ Features
+## 🚀 The AI-Powered BIM Loop
 
-* 🐍 Embedded Python .NET interpreter inside Navisworks  
-* ▶️ Execute Python scripts directly within the application  
-* 🔘 Create custom buttons linked to scripts for quick access  
-* 🗂️ Dockable panel to organize and run custom script buttons  
-* ⚙️ Configurable script folder and Python installation path  
-* 🎛️ Clean integration with the Navisworks ribbon interface  
+PyNet introduces a **closed-loop AI execution system**, turning Navisworks into an intelligent, conversational co-pilot. Unlike static plugins, PyNet learns and adapts to the specific needs of your BIM model.
 
----
-
-## 📝 Requirements
-
-* Autodesk Navisworks (supported versions depend on the release)  
-* A local Python installation compatible with Python .NET  
-* Basic knowledge of Python scripting and Navisworks workflows  
+### 🔄 How it works:
+- **Intent:** The user requests an action in natural language (e.g., *"Find all clashes in Level 1 and export them to Excel"*).
+- **Generation:** The AI generates a specialized Python script using the Navisworks API.
+- **Execution:** The script is processed via the PyNet .NET listener and executed locally.
+- **Self-Correction:** If a script fails, the system captures the exception. The AI analyzes the error, revises the code, and requeues it automatically.
+- **Structured Results:** Final data is returned via the `ia_Result` contract, ensuring consistent and validated feedback.
 
 ---
 
-## 📥 Installation
+## ✨ Key Features
 
-Navisworks PyNet is distributed through the Autodesk App Store.  
-
-1. Download and install the application from the Autodesk App Store.  
-2. Launch Autodesk Navisworks.  
-3. The **RAEN Tools** ribbon tab will be available after installation.  
-
-### 🗑️ Uninstallation
-
-* Open Windows **Apps & Features** or **Programs and Features**  
-* Locate *Navisworks PyNet* and uninstall it like any other application  
+* 🧠 **AI Self-Correction:** Automated debugging and iterative refinement of automation workflows.
+* 🐍 **Embedded Python .NET:** Run a full Python interpreter directly inside Navisworks.
+* 📚 **Data Science Ready:** Full access to libraries like `NumPy`, `Pandas`, and `Scikit-Learn` for advanced model analysis.
+* 🔘 **Custom UI Engine:** Create dockable panels and link Python scripts to custom ribbon buttons for team-wide deployment.
+* ⚙️ **Configurable Environment:** Define your own Python installation path and script repositories.
 
 ---
 
-## 🚀 Getting Started
+## 📽️ Video Tutorials & Guides
 
-### 1️⃣ Configuration
+Master the PyNet Platform workflow with these step-by-step video resources:
 
-Before running scripts, open the **Configuration** command from the ribbon:  
-
-* Set the folder used to browse Python scripts  
-* Define the path to the user’s Python installation  
-* Manage existing custom script buttons  
-
-This step is required to ensure scripts execute correctly.
-
-[▶️⚙️Configuration Video ](https://www.youtube.com/watch?v=4FLbLDF3MKQ)
+| Feature | Description | Link |
+| :--- | :--- | :--- |
+| **Navisworks Initial Setup** | Configure Python paths and script folders | [▶️⚙️ Configuration Guide](https://www.youtube.com/watch?v=4FLbLDF3MKQ) |
+| **Navisworks Scripting** | Browsing and running local Python scripts | [▶️🐍 Running Scripts](https://www.youtube.com/watch?v=IG0KOaFVKPk) |
+| **Navisworks UI Management** | Creating and managing custom script buttons | [▶️📝 Management Video](https://www.youtube.com/watch?v=pHNa_wb3GwI) |
 
 ---
 
-### 2️⃣ Browsing and Running Scripts
+## 🏗️ Core Use Cases
 
-Use **Browse Scripts** to:  
-
-* 🖱️ Browse Python script files  
-* ▶️ Execute scripts directly inside Navisworks  
-* 🔘 Create custom buttons linked to selected scripts for quick access  
-
-Scripts are executed locally and can interact with the Navisworks API through Python.  
-
-[▶️🐍Running scripts Video ](https://www.youtube.com/watch?v=IG0KOaFVKPk)
+- **Intelligent Model Interrogation:** Query complex BIM metadata using natural language.
+- **Automated Clash Management:** Custom analysis pipelines beyond native Navisworks capabilities.
+- **Machine Learning in BIM:** Apply ML frameworks for predictive auditing and risk assessment.
+- **Rule-Based Validation:** Highly complex, Python-driven logic for BIM standard enforcement.
+- **Automated Reporting:** Generate structured data outputs directly from model geometry.
 
 ---
 
-### 3️⃣ Custom Buttons Panel
+## 📥 Installation & Getting Started
 
-Use **Show Buttons** to display a dockable panel containing all custom script buttons:  
+### 1️⃣ Download
+PyNet is distributed through the **Autodesk App Store**. Download the installer and follow the prompts.
 
-* 🔘 Each button executes its associated Python script  
-* 🗂️ Buttons can be organized and managed through the configuration dialog  
-* 📌 The panel can be docked or hidden to fit different workflows  
+### 2️⃣ Configuration
+Upon first launch in Navisworks (under the **RAEN Tools** tab):
+* Set your local Python installation path.
+* Define the folder where your Python scripts are stored.
 
-[▶️📝Management Video ](https://www.youtube.com/watch?v=pHNa_wb3GwI)
-
----
-
-## 💡 Why PyNet
-
-PyNet bridges Python and .NET, enabling advanced use cases far beyond traditional scripting:  
-
-* 📚 **Full access to Python libraries** – NumPy, Pandas, SciPy, and more  
-* 🤖 **Machine Learning workflows** – Python-based ML frameworks for model analysis or automation logic  
-* 🔄 **Generative design and computational workflows** – combine Python algorithms with Autodesk APIs  
-* 📊 **Dashboards and data visualization** – leverage Python visualization frameworks to drive decision-making  
-
-Unlike isolated scripting solutions, PyNet allows Python to operate as a first-class citizen within Autodesk applications, combining:  
-
-* 🐍 Python flexibility and ecosystem  
-* ⚡ .NET performance and API access  
-* 🏗️ Native integration with Autodesk products  
-
-This enables scalable, future-proof automation strategies that evolve alongside both Python and Autodesk platforms.  
+### 3️⃣ First Execution
+Browse your scripts, test their execution, and pin the most used ones to the **Custom Buttons Panel** for quick access.
 
 ---
 
-## 🛠️ Workflow Overview
+## 🧠 Why PyNet?
 
-A typical workflow using PyNet:  
-
-1. ⚙️ Configure Python path and script folder  
-2. 🖱️ Browse and test Python scripts  
-3. 🔘 Create custom buttons for frequently used scripts  
-4. ▶️ Execute scripts directly from the dockable buttons panel  
-
-This makes automation a seamless part of the daily Autodesk workflow.  
+Traditional scripting is often static and hard to maintain. PyNet combines **AI reasoning** with **deterministic execution**. This bridges the gap between engineering data and intelligent automation, providing a scalable, future-proof strategy for BIM Coordinators and Technical Leads.
 
 ---
 
-## ⚠️ Limitations and Notes
+## 🔒 Privacy & Security
 
-* 🕒 Script execution performance depends on script complexity and model size  
-* ❌ Scripts containing errors may raise runtime exceptions  
-* 🐞 Advanced debugging tools are not included in the current version  
-* ✅ Users are responsible for validating scripts before using them in production  
-
----
-
-## 🔒 Privacy and Data Usage
-
-Navisworks PyNet does **not** collect, store, or transmit personal or confidential data.  
-
-All scripts are executed locally within the user’s environment. No external servers or third-party services are contacted.  
-
----
-
-## 🆘 Support
-
-Support is provided on a best-effort basis.  
-
-When requesting support, please include:  
-
-* 🏷️ Navisworks version  
-* 🔢 Navisworks PyNet version  
-* 📝 A clear description of the issue  
-* 🛠️ Steps to reproduce the problem  
-
----
-
-## 📜 License
-
-The license information for this project should be reviewed before use. Users are responsible for ensuring compliance with all applicable licensing and legal requirements.  
+* **Local Execution:** All Python scripts are executed within your local environment.
+* **Data Sovereignty:** No BIM data is transmitted externally during script runtime.
+* **Controlled AI:** While AI generates the code, the execution remains under the user's local security protocols.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project is intended for professional and educational use. Users assume all responsibility for scripts executed using this extension and for validating results produced within Navisworks.  
+PyNet is intended for professional use in BIM automation. Users are responsible for validating AI-generated scripts and ensuring results are correct before applying them to production environments. Performance depends on model size and script complexity.
 
+---
+<p align="center">
+  Developed by <b>RAEN Tools</b>
+</p>
