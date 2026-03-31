@@ -2,9 +2,9 @@
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNetLogo.png" width="150"/>
 </p>
 
-# PyNet Platform 🧠🐍🏗️
+# PyNET Platform 🧠🐍🏗️
 
-**PyNet Platform** is an AI-powered BIM automation ecosystem designed to bridge the gap between Natural Language, Python flexibility, and Autodesk's deterministic environment.
+**PyNET Platform** is an AI-powered BIM automation ecosystem designed to bridge the gap between Natural Language, Python flexibility, and Autodesk's deterministic environment.
 
 It operates as a dual-layer system:
 1.  **The Brain (AI Layer):** An intelligent agent that translates user intent into code, executes it, and self-corrects through automated feedback loops.
@@ -14,12 +14,12 @@ It operates as a dual-layer system:
 
 ## 🚀 The AI-Powered BIM Loop
 
-PyNet introduces a **closed-loop AI execution system**, turning Navisworks into an intelligent, conversational co-pilot. Unlike static plugins, PyNet learns and adapts to the specific needs of your BIM model.
+PyNET Platform introduces a **closed-loop AI execution system**, turning Navisworks into an intelligent, conversational co-pilot. Unlike static plugins, PyNET Platform learns and adapts to the specific needs of your BIM model.
 
 ### 🔄 How it works:
 - **Intent:** The user requests an action in natural language (e.g., *"Find all clashes in Level 1 and export them to Excel"*).
 - **Generation:** The AI generates a specialized Python script using the Navisworks API.
-- **Execution:** The script is processed via the PyNet .NET listener and executed locally.
+- **Execution:** The script is processed via the PyNET Platform .NET listener and executed locally.
 - **Self-Correction:** If a script fails, the system captures the exception. The AI analyzes the error, revises the code, and requeues it automatically.
 - **Structured Results:** Final data is returned via the `ia_Result` contract, ensuring consistent and validated feedback.
 
@@ -37,7 +37,7 @@ PyNet introduces a **closed-loop AI execution system**, turning Navisworks into 
 
 ## 📽️ Video Tutorials & Guides
 
-Master the PyNet Platform workflow with these step-by-step video resources:
+Master the PyNET Platform workflow with these step-by-step video resources:
 
 | Feature | Description | Link |
 | :--- | :--- | :--- |
@@ -57,24 +57,30 @@ Master the PyNet Platform workflow with these step-by-step video resources:
 
 ---
 
-## 📥 Installation & Getting Started
+## 📥 Installation & Licensing
 
-### 1️⃣ Download
-PyNet is distributed through the **Autodesk App Store**. Download the installer and follow the prompts.
+### 1️⃣ Availability
+PyNET Platform will be distributed through the **Autodesk App Store** and the **Lemon Squeezy** platform for secure licensing. 
+> ⚠️ **Status:** The application is currently in the final review stage and is **not yet available** for public download. Stay tuned for the official launch.
 
 ### 2️⃣ Configuration
 Upon first launch in Navisworks (under the **RAEN Tools** tab):
+* Activate your license via the secure activation window.
 * Set your local Python installation path.
 * Define the folder where your Python scripts are stored.
 
-### 3️⃣ First Execution
-Browse your scripts, test their execution, and pin the most used ones to the **Custom Buttons Panel** for quick access.
+---
+
+## 🧠 Why PyNET Platform?
+
+Traditional scripting is often static and hard to maintain. PyNET Platform combines **AI reasoning** with **deterministic execution**. This bridges the gap between engineering data and intelligent automation, providing a scalable, future-proof strategy for BIM Coordinators and Technical Leads.
 
 ---
 
-## 🧠 Why PyNet?
+## 🤖 AI Models & Integration
 
-Traditional scripting is often static and hard to maintain. PyNet combines **AI reasoning** with **deterministic execution**. This bridges the gap between engineering data and intelligent automation, providing a scalable, future-proof strategy for BIM Coordinators and Technical Leads.
+**Important Note on AI Providers:**
+PyNET Platform acts as the integration bridge between AI models and Autodesk tools. **Access to AI models (such as Claude AI, OpenAI, etc.) is not included with the tool.** Users must provide their own integration or use the platform to bridge their existing AI workflows into the Autodesk ecosystem. PyNET Platform is the engine that enables these AIs to "understand" and "operate" Navisworks, Revit, and Civil 3D.
 
 ---
 
@@ -88,7 +94,7 @@ Traditional scripting is often static and hard to maintain. PyNet combines **AI 
 
 ## ⚠️ Disclaimer
 
-PyNet is intended for professional use in BIM automation. Users are responsible for validating AI-generated scripts and ensuring results are correct before applying them to production environments. Performance depends on model size and script complexity.
+PyNET Platform is intended for professional use in BIM automation. Users are responsible for validating AI-generated scripts and ensuring results are correct before applying them to production environments. Performance depends on model size and script complexity.
 
 ---
 <p align="center">
