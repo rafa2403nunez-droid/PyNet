@@ -11,7 +11,7 @@
 ## ✨ FEATURE HIGHLIGHT: Claude AI Integration 🤖
 > **Watch how PyNET transforms Natural Language into complex Navisworks scripts in real-time.**
 
-[▶️🤖 PyNET Claude Integration](https://www.youtube.com/watch?v=TU_ID_DE_VIDEO)
+[▶️🤖 PyNET Claude Integration](https://www.youtube.com/watch?v=xWA5zNPoZV4)
 
 *In this showcase, we demonstrate the core power of the platform: using Claude AI as a co-pilot to translate user intent into high-performance Python .NET code.*
 
