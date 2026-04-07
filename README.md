@@ -76,7 +76,21 @@ Upon first launch in Navisworks (under the **RAEN Tools** tab):
 
 ---
 
-## 🤖 AI Models & Integration
+## 🤖 AI Integration via MCP (Model Context Protocol)
+
+PyNET Platform connects to AI models through **[PyNet Bridge](https://github.com/rafa2403nunez-droid/PyNetBridge)**, an official MCP server that exposes all PyNET tools directly to any MCP-compatible AI client (Claude Desktop, Claude Code, Cursor, VS Code, etc.).
+
+### ⚡ One-line install
+
+Open PowerShell and run:
+
+```powershell
+irm https://raw.githubusercontent.com/rafa2403nunez-droid/PyNetBridge/main/install.ps1 | iex
+```
+
+This installs the MCP server and configures it automatically for **Claude Desktop** and **Claude Code (VS Code extension)**.
+
+> For manual setup or other clients, see the [PyNet Bridge repository](https://github.com/rafa2403nunez-droid/PyNetBridge).
 
 **Important Note on AI Providers:**
 PyNET Platform acts as the integration bridge between AI models and Autodesk tools. **Access to AI models (such as Claude AI, OpenAI, etc.) is not included with the tool.** Users must provide their own integration or use the platform to bridge their existing AI workflows into the Autodesk ecosystem. PyNET Platform is the engine that enables these AIs to "understand" and "operate" Navisworks, Revit, and Civil 3D.
