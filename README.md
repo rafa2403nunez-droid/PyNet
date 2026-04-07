@@ -96,6 +96,9 @@ PyNET Platform acts as the integration bridge between AI models and Autodesk too
 PyNET Platform is intended for professional use in BIM automation. Users are responsible for validating AI-generated scripts and ensuring results are correct before applying them to production environments. Performance depends on model size and script complexity.
 
 ---
+
 <p align="center">
-  Developed by <b>RAEN Tools</b>
+  Developed by <b>RAEN Digital Tools</b>
+  <br/><br/>
+  <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/RAENDigitalTools.png" alt="RAEN Digital Tools" width="200">
 </p>
