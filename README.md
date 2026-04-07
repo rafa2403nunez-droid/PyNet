@@ -65,8 +65,12 @@ Master the PyNET Platform workflow with these step-by-step video resources:
 ## 📥 Installation & Licensing
 
 ### 1️⃣ Availability
-PyNET Platform will be distributed through the **Autodesk App Store** and the **Lemon Squeezy** platform for secure licensing. 
+PyNET Platform will be distributed through **Fremius** platform for secure licensing.
 > ⚠️ **Status:** The application is currently in the final review stage and is **not yet available** for public download. Stay tuned for the official launch.
+
+<p align="center">
+  <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNETPlans.png" width="500"/>
+</p>
 
 ### 2️⃣ Configuration
 Upon first launch in Navisworks (under the **RAEN Tools** tab):
