@@ -2,13 +2,16 @@
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNetLogo.png" width="150"/>
 </p>
 
-# PyNET Platform 🧠🐍🏗️
+# PyNET Platform 🧠🐍
 
-**PyNET Platform** is an AI-powered BIM automation ecosystem designed to bridge the gap between Natural Language, Python flexibility, and Autodesk's deterministic environment.
+**PyNET Platform** is an AI-driven BIM automation platform that connects natural language, Python execution, and Autodesk Navisworks into a unified workflow.
 
 ---
 
-## ✨ FEATURE HIGHLIGHT: Claude AI Integration 🤖
+## ✨ FEATURE HIGHLIGHT: 🤖 AI Integration
+
+This example demonstrates how an AI model translates natural language into executable Python .NET scripts in real time.
+
 > **Watch how PyNET transforms Natural Language into complex Navisworks scripts in real-time.**
 
 [▶️🤖 PyNET Claude Integration](https://www.youtube.com/watch?v=xWA5zNPoZV4)
@@ -19,13 +22,13 @@
 
 ## 🚀 The AI-Powered BIM Loop
 
-PyNET Platform introduces a **closed-loop AI execution system**, turning Navisworks into an intelligent, conversational co-pilot. Unlike static plugins, PyNET Platform learns and adapts to the specific needs of your BIM model.
+**PyNET Platform** introduces a closed-loop AI-assisted execution system, turning Navisworks into an intelligent, conversational co-pilot. Unlike static plugins, PyNET Platform learns and adapts to the specific needs of your BIM model.
 
 ### 🔄 How it works:
 * **Intent:** The user requests an action in natural language (e.g., *"Find all clashes in Level 1 and export them to Excel"*).
 * **Generation:** The AI generates a specialized Python script using the Navisworks API.
 * **Execution:** The script is processed via the PyNET Platform .NET listener and executed locally.
-* **Self-Correction:** If a script fails, the system captures the exception. The AI analyzes the error, revises the code, and requeues it automatically.
+* **Self-Correction:** If a script fails, the system captures the exception and can optionally feed the error back to the AI for iterative correction, depending on the configured workflow.
 * **Structured Results:** Final data is returned via the `ia_Result` contract, ensuring consistent and validated feedback.
 
 ---
@@ -34,8 +37,8 @@ PyNET Platform introduces a **closed-loop AI execution system**, turning Naviswo
 
 * 🧠 **AI Self-Correction:** Automated debugging and iterative refinement of automation workflows.
 * 🐍 **Embedded Python .NET:** Run a full Python interpreter directly inside Navisworks.
-* 📚 **Data Science Ready:** Full access to libraries like `NumPy`, `Pandas`, and `Scikit-Learn` for advanced model analysis.
-* 🔘 **Custom UI Engine:** Create dockable panels and link Python scripts to custom ribbon buttons for team-wide deployment.
+* 📚 **Data Science Ready:** Supports integration with libraries such as NumPy, Pandas, and Scikit-Learn for advanced data processing and analysis.
+* 🔘 **Custom UI Engine:** Create dockable panels and connect Python scripts to custom ribbon buttons for deployment within Navisworks.
 * ⚙️ **Configurable Environment:** Define your own Python installation path and script repositories.
 
 ---
@@ -65,8 +68,8 @@ Master the PyNET Platform workflow with these step-by-step video resources:
 ## 📥 Installation & Licensing
 
 ### 1️⃣ Availability
-PyNET Platform will be distributed through **Fremius** platform for secure licensing.
-> ⚠️ **Status:** The application is currently in the final review stage and is **not yet available** for public download. Stay tuned for the official launch.
+PyNET Platform will be distributed via the Fremius platform to ensure secure licensing and controlled access.
+> ⚠️ **Status:** The platform is currently in final review and is not yet publicly available.
 
 <p align="center">
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNETPlans.png" width="500"/>
@@ -82,7 +85,9 @@ Upon first launch in Navisworks (under the **RAEN Tools** tab):
 
 ## 🤖 AI Integration via MCP (Model Context Protocol)
 
-PyNET Platform connects to AI models through **[PyNet Bridge](https://github.com/rafa2403nunez-droid/PyNetBridge)**, an official MCP server that exposes all PyNET tools directly to any MCP-compatible AI client (Claude Desktop, Claude Code, Cursor, VS Code, etc.).
+PyNET Platform connects to AI models through **[PyNet Bridge](https://github.com/rafa2403nunez-droid/PyNetBridge)**, an MCP server that exposes PyNET tools to compatible AI clients.
+
+This allows AI systems to generate and execute scripts that interact directly with Navisworks, Revit, and Civil 3D.
 
 ### ⚡ One-line install
 
@@ -106,12 +111,13 @@ PyNET Platform acts as the integration bridge between AI models and Autodesk too
 * **Local Execution:** All Python scripts are executed within your local environment.
 * **Data Sovereignty:** No BIM data is transmitted externally during script runtime.
 * **Controlled AI:** While AI generates the code, the execution remains under the user's local security protocols.
+* **AI-generated code** may be processed by external AI providers depending on the user's chosen integration.
 
 ---
 
 ## ⚠️ Disclaimer
 
-PyNET Platform is intended for professional use in BIM automation. Users are responsible for validating AI-generated scripts and ensuring results are correct before applying them to production environments. Performance depends on model size and script complexity.
+PyNET Platform is intended for professional use in BIM automation. Users are responsible for reviewing, validating, and ensuring the correctness of AI-generated scripts before applying them in production environments.
 
 ---
 
