@@ -6,6 +6,23 @@
 
 **PyNET Platform** is an AI-driven BIM automation platform that connects natural language, Python execution, and Autodesk Navisworks into a unified workflow.
 
+### PyNET Platform Ecosystem
+
+PyNET platform use the following Ecosistem to automate BIM tasks using AI.
+
+<p align="center">
+  <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNetPlatformStructure.png" width="1000"/>
+  <br>
+  
+</p>
+
+| Component | Repository | Purpose |
+| :--- | :--- | :--- |
+| **PyNet Platform** | [rafa2403nunez-droid/PyNet](https://github.com/rafa2403nunez-droid/PyNet) | Navisworks/Revit/Civil 3D plugin that hosts the Python.NET engine providing UI Layer and AI integration with BIM Models |
+| **PyNet Bridge (MCP)** | [rafa2403nunez-droid/PyNetBridge](https://github.com/rafa2403nunez-droid/PyNetBridge) | MCP server that connects AI models to PyNET with including secure scripts validation |
+| **PyNet Library** | [rafa2403nunez-droid/PyNetLibrary](https://github.com/rafa2403nunez-droid/PyNetLibrary) | Python Scripts reference library for Revit, Navisworks and Civil 3D and AI context|
+
+
 ---
 
 ## ✨ FEATURE HIGHLIGHT: 🤖 AI Integration
