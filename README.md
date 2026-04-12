@@ -114,7 +114,11 @@ Open PowerShell and run:
 irm https://raw.githubusercontent.com/rafa2403nunez-droid/PyNetBridge/main/install.ps1 | iex
 ```
 
-This installs the MCP server and configures it automatically for **Claude Desktop** and **Claude Code (VS Code extension)**.
+This installs the MCP server and auto-detects all supported AI clients:
+- **Claude Desktop** (standard and Microsoft Store)
+- **Claude Code** (VS Code extension / CLI)
+- **Cline** (VS Code extension)
+- **Roo Code** (VS Code extension)
 
 > For manual setup or other clients, see the [PyNet Bridge repository](https://github.com/rafa2403nunez-droid/PyNetBridge).
 
