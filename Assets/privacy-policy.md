@@ -1,28 +1,36 @@
-# Privacy Policy for Navisworks PyNet
+# Privacy Policy for PyNET Platform
 
-**Effective Date:** February 2026
+**Effective Date:** April 2026
 
-Navisworks PyNet respects your privacy and is committed to protecting any information you may provide while using the application. This Privacy Policy explains what data, if any, is collected, how it is used, and your rights regarding that data.
+PyNET Platform respects your privacy and is committed to protecting any information you may provide while using the application. This Privacy Policy explains what data, if any, is collected, how it is used, and your rights regarding that data.
 
 ## 1. Data Collection and Use
 
-Navisworks PyNet **does not collect, transmit, or store any personal or confidential information** from users. All scripts executed within PyNet run locally on the user’s computer. No user behavior, files, or project data is transmitted to external servers or third-party services.
+PyNET Platform **does not collect, transmit, or store any personal or confidential information** from users. All scripts executed within PyNET run locally on the user's computer. No user behavior, files, or project data is transmitted to external servers or third-party services by PyNET Platform.
 
-## 2. Third-Party Sharing
+## 2. AI Integration Disclaimer
 
-Since Navisworks PyNet does not collect any data, **no user information is shared with third parties**, including analytics tools, advertising networks, SDK providers, or affiliates of the publisher.
+PyNET Platform can be connected to external AI providers (such as Claude, OpenAI, etc.) through the MCP protocol. When using AI integration, scripts and model data may be transmitted to the AI provider selected by the user. **This data exchange is governed by the AI provider's own privacy policy and terms of service**, not by PyNET Platform. Users are responsible for reviewing and accepting the privacy policies of their chosen AI provider.
 
-## 3. Data Retention and Deletion
+## 3. Licensing and Payments
 
-No user data is stored by Navisworks PyNet or its publisher. Consequently, there are no data retention or deletion procedures required.
+PyNET Platform uses **Freemius** as its licensing and payment platform. When purchasing a license, Freemius collects the information necessary to process the transaction (e.g., email address, payment details via Stripe). This data is handled by Freemius under their own privacy policy: [https://freemius.com/privacy/](https://freemius.com/privacy/)
 
-## 4. User Rights
+## 4. Third-Party Sharing
 
-As no data is collected, users are not required to provide consent, and there is no data to revoke or delete. Users may uninstall the application at any time to terminate usage.
+PyNET Platform does not share any user information with third parties, including analytics tools, advertising networks, or SDK providers. The only third-party interactions are those initiated by the user (AI providers) and the licensing platform (Freemius).
 
-## 5. In-App Access
+## 5. Data Retention and Deletion
 
-A copy of this Privacy Policy is available within the Navisworks PyNet application via the **“Privacy Policy”** menu or button, ensuring that users can always access this information directly from the software.
+No user data is stored by PyNET Platform or its publisher. Consequently, there are no data retention or deletion procedures required.
+
+## 6. User Rights
+
+As no data is collected by PyNET Platform, users are not required to provide consent, and there is no data to revoke or delete. Users may uninstall the application at any time to terminate usage.
+
+## 7. In-App Access
+
+A copy of this Privacy Policy is available within the PyNET Platform application via the **"Privacy Policy"** menu, ensuring that users can always access this information directly from the software.
 
 ---
 
