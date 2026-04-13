@@ -108,6 +108,8 @@ This allows AI systems to generate and execute scripts that interact directly wi
 
 ### ⚡ One-line install
 
+> ⚠️ **Prerequisite:** Python must be installed on your system. For detailed instructions and requirements, see the [PyNet Bridge repository](https://github.com/rafa2403nunez-droid/PyNetBridge).
+
 Open PowerShell and run:
 
 ```powershell
