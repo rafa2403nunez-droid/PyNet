@@ -31,7 +31,7 @@ This example demonstrates how an AI model translates natural language into execu
 
 > **Watch how PyNET transforms Natural Language into complex Navisworks scripts in real-time.**
 
-[▶️🤖 PyNET Claude Integration](https://www.youtube.com/watch?v=xWA5zNPoZV4)
+[▶️🤖 PyNET Claude Integration](https://www.youtube.com/watch?v=2uHfR1x1DQk)
 
 *In this showcase, we demonstrate the core power of the platform: using Claude AI as a co-pilot to translate user intent into high-performance Python .NET code.*
 
@@ -133,6 +133,14 @@ PyNET Platform acts as the integration bridge between AI models and Autodesk too
 * **Data Sovereignty:** No BIM data is transmitted externally during script runtime.
 * **Controlled AI:** While AI generates the code, the execution remains under the user's local security protocols.
 * **AI-generated code** may be processed by external AI providers depending on the user's chosen integration.
+
+---
+
+## ❓ FAQs
+
+Have questions about installation, configuration, or usage? Check the full FAQ page:
+
+👉 [PyNet FAQs](https://github.com/rafa2403nunez-droid/PyNet/wiki/FAQs)
 
 ---
 
