@@ -108,7 +108,7 @@ This allows AI systems to generate and execute scripts that interact directly wi
 
 ### ⚡ One-line install
 
-> ⚠️ **Prerequisite:** Python must be installed on your system. For detailed instructions and requirements, see the [PyNet Bridge repository](https://github.com/rafa2403nunez-droid/PyNetBridge).
+> ⚠️ **Prerequisites:** Python must be installed on your system (3.10 to 3.13). **Python 3.14 is not yet supported** — the `pythonnet` runtime currently supports Python 3.7 through 3.13. For VS Code extensions (Claude Code, Cline, Roo Code), **Git** must also be installed → [git-scm.com](https://git-scm.com/downloads). For detailed instructions and requirements, see the [PyNet Bridge repository](https://github.com/rafa2403nunez-droid/PyNetBridge).
 
 Open PowerShell and run:
 
