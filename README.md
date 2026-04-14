@@ -6,6 +6,9 @@
 
 **PyNET Platform** is an AI-driven BIM automation platform that connects natural language, Python execution, and Autodesk Navisworks into a unified workflow.
 
+### 📥 Activate the 30 days **Trial** here: 
+**[Start Trial](https://checkout.freemius.com/app/27109/plan/44854/?trial=free)**
+
 ### PyNET Platform Ecosystem
 
 PyNET platform use the following Ecosistem to automate BIM tasks using AI.
@@ -86,11 +89,15 @@ Master the PyNET Platform workflow with these step-by-step video resources:
 
 ### 1️⃣ Availability
 PyNET Platform will be distributed via the Fremius platform to ensure secure licensing and controlled access.
-> ⚠️ **Status:** The platform is currently in final review and is not yet publicly available.
 
 <p align="center">
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNETPlans.png" width="500"/>
 </p>
+
+| License | Description | Link |
+| :--- | :--- | :--- |
+| **Trial** | 30 trial access to a basic license. | [📥 **Start Trial**](https://checkout.freemius.com/app/27109/plan/44854/?trial=free)|
+| **Basic** | Access to a basic license for the extension to integrate  the Autodesk products available individually. | [📥 **Start Basic**](https://checkout.freemius.com/app/27109/plan/44854/) |
 
 ### 2️⃣ Configuration
 Upon first launch in Navisworks (under the **RAEN Tools** tab):
