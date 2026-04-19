@@ -139,6 +139,9 @@ PyNET Platform is intended for professional use in BIM automation. Users are res
 
 ---
 
+© 2026 RAEN Digital Tools. Todos los derechos reservados.
+Obra inscrita en el Registro de la Propiedad Intelectual de la Comunidad de Madrid.
+
 <p align="center">
   Developed by <b>RAEN Digital Tools</b>
   <br/><br/>
