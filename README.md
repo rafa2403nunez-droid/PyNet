@@ -72,10 +72,12 @@ PyNET Platform will be distributed via the Fremius platform to ensure secure lic
   <img src="https://github.com/rafa2403nunez-droid/PyNet/blob/main/Assets/PyNETPlans.png" width="500"/>
 </p>
 
+> These prices are indicative. The tool is currently in Beta and can only be acquired through a trial period and formal approval from RAEN Tools, by accepting the terms of use for testers.
+
 | License | Description | Link |
 | :--- | :--- | :--- |
 | **Trial** | 30 trial access to a basic license. | [📥 **Start Trial**](https://checkout.freemius.com/app/27109/plan/44854/?trial=free)|
-| **Basic** | Access to a basic license for the extension to integrate  the Autodesk products available individually. | [📥 **Start Basic**](https://checkout.freemius.com/app/27109/plan/44854/) |
+| **Basic** | Access to a basic license for the extension to integrate  the Autodesk products available individually. | **Coming Soon** |
 
 ### 2️⃣ Configuration
 Upon first launch in Navisworks (under the **RAEN Tools** tab):
